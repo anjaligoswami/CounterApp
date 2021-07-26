@@ -10,7 +10,7 @@ function increment() {
 
 function save() {
      saveEl.innerText += count
-     saveEl.innerText += "- "
+     saveEl.innerText += " - "
      count =0
      countEl.innerText = count
 }
