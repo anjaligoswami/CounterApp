@@ -9,8 +9,11 @@ function increment() {
 };
 
 function save() {
-     saveEl.innerText += count
-     saveEl.innerText += " - "
+      if(count >0)
+     {
+      saveEl.innerText += count
+      saveEl.innerText += " - "
+     } 
      count =0
      countEl.innerText = count
 }
